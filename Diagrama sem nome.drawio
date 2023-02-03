@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T20:05:36.685Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OOqIk8WxrMRgFmqMNEcO" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T20:10:00.121Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tuQE9OzCzQ-wajaO9Tbu" version="20.8.16" type="github">
   <diagram name="Página-1" id="ntbLtSMyAjOL-mvKOApy">
     <mxGraphModel dx="1842" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,14 @@
         <mxCell id="dKFzCZ33GP6Wc4S3GymS-26" value="&lt;h1&gt;O que é uma função de callback (utilizada no Event Listener)?&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2370" y="300" width="720" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dKFzCZ33GP6Wc4S3GymS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=24;" edge="1" parent="1" source="dKFzCZ33GP6Wc4S3GymS-29" target="dKFzCZ33GP6Wc4S3GymS-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKFzCZ33GP6Wc4S3GymS-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dKFzCZ33GP6Wc4S3GymS-29" target="dKFzCZ33GP6Wc4S3GymS-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3820" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dKFzCZ33GP6Wc4S3GymS-29" value="&lt;h1&gt;Qual a diferença de um Event Listener de atributos HTML (como onclick)?&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3270" y="300" width="720" height="60" as="geometry" />
         </mxCell>
@@ -177,7 +185,10 @@
           <mxGeometry x="3270" y="410" width="350" height="500" as="geometry" />
         </mxCell>
         <mxCell id="dKFzCZ33GP6Wc4S3GymS-53" value="&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Onclick&lt;/b&gt;:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Permite adicionar apenas 1 evento a um elemento;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Não controla a propagação de eventos;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pode ser adicionado como um atributo HTML;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Lato, sans-serif; vertical-align: baseline; min-width: 100%; color: rgb(10, 10, 35); background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Funciona em todos os navegadores.&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3630" y="410" width="350" height="500" as="geometry" />
+          <mxGeometry x="3640" y="410" width="350" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dKFzCZ33GP6Wc4S3GymS-58" value="&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; min-width: 100%; background-color: rgb(255, 255, 255);&quot;&gt;EXEMPLO&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; margin: 0px 0px 1.5em; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; min-width: 100%; background-color: rgb(255, 255, 255);&quot;&gt;https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_addeventlistener4&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280.5" y="940" width="329" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
